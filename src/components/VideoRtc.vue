@@ -18,7 +18,7 @@ const config = {
   }],
 }
 
-const prefixUrl = 'http://192.168.31.32:8083'
+const prefixUrl = 'http://autopump-webrtc:8083'
 const pc = new RTCPeerConnection(config)
 
 const getRemoteSdp = async () => {
@@ -73,7 +73,7 @@ onMounted(() => {
   }
 
   pc.oniceconnectionstatechange = (e) => {
-    // console.log(e)
+    console.log(e, pc.iceConnectionState)
     log(pc.iceConnectionState)
   }
 })
@@ -90,3 +90,17 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style lang="css" scoped>
+video::-webkit-media-controls {
+  /* display: none !important; */
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+  display: inline-block !important;
+}
+</style>

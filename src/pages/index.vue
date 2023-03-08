@@ -4,30 +4,22 @@
 <template>
   <div>
     <div class="grid grid-cols-5 gap-5">
-      <VideoRtc suuid="H264_AAC" />
-      <VideoRtc suuid="H264_AAC1" />
-      <VideoRtc suuid="3301061000023" />
-      <VideoRtc suuid="3301061000092" />
-      <VideoRtc suuid="3301061000006" />
-      <VideoRtc suuid="3301061000005" />
-      <VideoRtc suuid="3301061000095" />
-      <VideoRtc suuid="3301061000094" />
-      <VideoRtc suuid="3301061000045" />
-      <VideoRtc suuid="3301061000049" />
-      <!-- <VideoRtc suuid="3301061000054" /> -->
-      <VideoRtc suuid="3301061000012" />
-      <!-- <VideoRtc suuid="3301061000013" /> -->
-      <VideoRtc suuid="3301061000056" />
-      <VideoRtc suuid="3301061000057" />
-      <VideoRtc suuid="3301061000060" />
-      <VideoRtc suuid="3301061000065" />
-      <VideoRtc suuid="3301061000069" />
-      <!-- <VideoRtc suuid="3301061000032" />
-      <VideoRtc suuid="3301061000037" /> -->
-      <VideoRtc suuid="3301061000042" />
-      <VideoRtc suuid="3301061000070" />
-      <!-- <VideoRtc suuid="3301061000073" />
-      <VideoRtc suuid="3301061000079" /> -->
+      <VideoRtc suuid="原油泵房东" />
+      <VideoRtc suuid="原油泵房南" />
+      <VideoRtc suuid="原油泵房西" />
+      <VideoRtc suuid="原油泵房北" />
+      <VideoRtc suuid="重油泵棚东" />
+      <VideoRtc suuid="重油泵棚南" />
+      <VideoRtc suuid="重油泵棚西" />
+      <VideoRtc suuid="重油泵棚北" />
+      <VideoRtc suuid="奥里油泵棚01" />
+      <VideoRtc suuid="奥里油泵棚02" />
+      <VideoRtc suuid="奥里油泵棚03" />
+      <VideoRtc suuid="低硫燃料油泵棚01" />
+      <VideoRtc suuid="低硫燃料油泵棚02" />
+      <VideoRtc suuid="燃料油泵棚01" />
+      <VideoRtc suuid="燃料油泵棚02" />
+      <VideoRtc suuid="燃料油泵棚03" />
     </div>
   </div>
 </template>
